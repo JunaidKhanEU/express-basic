@@ -6,7 +6,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-  res.send("Welcome to Express Server @@");
+  res.send("Welcome to Express Server with codepiple AWS");
 });
 const PORT = process.env.PORT;
 app.listen(PORT, () => {
